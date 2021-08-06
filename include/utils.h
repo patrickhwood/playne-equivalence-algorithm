@@ -129,12 +129,6 @@ unsigned int count_components(const unsigned int *labels, const unsigned int K) 
 }
 
 
-// ---------- Calculate time from (start - end) ----------
-double gettime_seconds(timeval start, timeval end) {
-	return ((end.tv_sec-start.tv_sec) + (end.tv_usec-start.tv_usec)/1000000.0);
-}
-
-
 // ---------- Calculate Mean ----------
 template <class T>
 T mean(const T *a, const int N) {

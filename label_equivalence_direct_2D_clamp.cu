@@ -22,7 +22,6 @@
 
 // Headers
 #include <stdio.h>
-#include <sys/time.h>
 
 // Project Headers
 #include "utils.h"
